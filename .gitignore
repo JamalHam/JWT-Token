@@ -10,7 +10,6 @@
 .pycharmrc
 .idea/
 media/
-static/
 !app/core/static/
 feed_sources/
 cache/

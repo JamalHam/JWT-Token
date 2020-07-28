@@ -1,0 +1,32 @@
+{
+  "name": "django-jwt-react",
+  "version": "1.0.0",
+  "description": "example code for creating and managing tokens between django and react",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamalHam/JWT-Token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamalHam/JWT-Token/issues"
+  },
+  "homepage": "https://github.com/JamalHam/JWT-Token#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
